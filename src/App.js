@@ -17,7 +17,7 @@ function App() {
             <Route exact path="/" element={<HomePage/>} />
             <Route path="/about" element={<AboutPage/>} />
             <Route path="/courses" element={<CoursesPage />} />
-            <Route  element={<PageNotFound/>} />
+            <Route path="*" element={<PageNotFound/>} />
           </Routes>
         </div>
         <div className="col-md-2"></div>
