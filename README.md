@@ -1,1 +1,1 @@
-# Building-Applications-with-React-Redux
+# Building Applications with React Redux
